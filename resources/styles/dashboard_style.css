@@ -1,0 +1,100 @@
+#DashboardTab GridPane {
+    -fx-border-width: 1px;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+}
+
+.tab *.tab-label {
+    -fx-rotate: 90;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 20px;
+    -fx-tab-min-height: 100px;
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab {
+    -fx-background-color: #e6e6e6;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #E3F2FD;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+#TeamsGridPane AnchorPane {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+}
+
+.db-projects-gridpane {
+    -fx-background-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-min-width: 160px;
+    -fx-min-height: 160px;
+    -fx-background-color: #bbdefb;
+    -fx-border-color: #4FC3F7;
+    -fx-border-radius: 10px;
+}
+
+.db-projects-gridpane .label {
+    -fx-max-width: 150px;
+    -fx-min-height: 35px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-row-valignment: center;
+    -fx-column-halignment: center;
+    -fx-wrap-text: true;
+    /*-fx-font-weight: bold;*/
+    -fx-font-size: 14px;
+}
+
+.tb-teams {
+    -fx-background-color: #FFFFFF;
+}
+
+.db-teams-name {
+
+}
+
+.db-teams-worker-name {
+    -fx-padding: 6px 0 0 0;
+}
+
+.db-teams-worker-title {
+    -fx-padding: 21px 0 0 0;
+}
+
+.teams-parent-tile {
+    -fx-border-width: 1px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5px;
+    -fx-background-color:  #FBFBFB;
+    -fx-padding: 0 15px;
+}
+
+.teams-indv-tile {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px;
+}
+
+.optionBlock {
+
+}
+
+.optionBlock:hover {
+    -fx-background-color: #eceff1;
+    -fx-border-color: #263238;
+}
